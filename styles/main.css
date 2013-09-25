@@ -31,3 +31,7 @@ div {
 	margin-top: 5.0em;
 }
 
+ul.carousel_list li img {
+	width: 100%;
+}
+
