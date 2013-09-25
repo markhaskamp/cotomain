@@ -1,0 +1,19 @@
+
+.page-title{
+	margin-top: 1.0em;
+  background-color: #8a0000;
+  color: white;
+  height: 4.50em;
+	padding: 1.5em;
+}
+
+.page-title .page-title-text {
+	font-weight: bold;
+	font-size: 2.0em;
+}
+
+
+div {
+	border: 1px solid black;
+}
+
