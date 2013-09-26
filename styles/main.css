@@ -6,35 +6,36 @@ div {
 */
 
 .page-title{
-	margin-top: 2.0em;
+  font-family: "arial black";
+  margin-top: 2.0em;
   background-color: #8c0303;
   color: white;
   height: 4.50em;
-	padding: 1.5em;
+  padding: 1.5em;
 }
 
 .page-title .page-title-text {
-	font-weight: bold;
-	font-size: 2.0em;
-	margin-left: 5.0em;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-left: 4.0em;
 }
 
 .page-title .on-main{
-	color: gray;
-	font-weight: bold;
-	font-size: 2.0em;
+  color: gray;
+  font-weight: bold;
+  font-size: 2.0em;
 }
 
 #title_img {
-	position: absolute;
+  position: absolute;
 }
 
 .carousels_container {
-	margin-top: 2.5em;
+  margin-top: 1.5em;
 }
 
 ul.carousel_list li img {
-	width: 350px;
-	height: 350px;
+  width: 350px;
+  height: 350px;
 }
 
