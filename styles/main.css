@@ -57,6 +57,7 @@ ul.carousel_list li img {
   border: 1px solid black;
   border-top: 0px;
   border-radius: 0px 0px 5px 5px;
+  height: 225px;
 }
 
 span.hours_day {
