@@ -21,7 +21,6 @@ div {
 }
 
 .page-title .on-main{
-  /* color: #d5d5d5; */
   color: #cc6060;
   font-weight: bold;
   font-size: 1.33em;
@@ -40,3 +39,27 @@ ul.carousel_list li img {
   height: 350px;
 }
 
+.bottom_panels {
+  margin-top: 1.25em;
+}
+
+.panel_header {
+  color: white;
+  background-color: #8c0303;
+  padding: 3px;
+  border: 1px solid black;
+  border-bottom: 0px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.panel_content {
+  padding: 3px;
+  border: 1px solid black;
+  border-top: 0px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+span.hours_day {
+  display: inline-block;
+  width: 90px;
+}
