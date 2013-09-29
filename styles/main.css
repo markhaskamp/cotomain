@@ -21,7 +21,8 @@ div {
 }
 
 .page-title .on-main{
-  color: #d5d5d5;
+  /* color: #d5d5d5; */
+  color: #cc6060;
   font-weight: bold;
   font-size: 1.33em;
 }
