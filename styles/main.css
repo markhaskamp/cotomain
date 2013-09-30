@@ -39,10 +39,19 @@ ul.carousel_list li img {
   height: 350px;
 }
 
-.bottom_panels {
-  margin-top: 1.25em;
+.page_text {
+  font-family: "Arial Rounded MT Bold";
+  text-align: left;
+  color: gray;
+  font-size: 1.6em;
 }
 
+.page_text .emphasis {
+  font-family: "Arial Rounded MT Bold";
+  text-align: left;
+  color:  #8c0303;
+  font-size: 1.1em;
+}
 .panel_header {
   color: white;
   background-color: #8c0303;
