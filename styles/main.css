@@ -40,14 +40,19 @@ ul.carousel_list li img {
 }
 
 .page_text {
-  font-family: "Arial Rounded MT Bold";
+  font-family: "Arial Rounded MT Bold", Arial, Sans-Serif;
   text-align: left;
   color: gray;
   font-size: 1.6em;
 }
 
+.page_text_container {
+  margin: 1.0em;
+  margin-top: 2.0em;
+  line-height: 2.50em;
+}
+
 .page_text .emphasis {
-  font-family: "Arial Rounded MT Bold";
   text-align: left;
   color:  #8c0303;
   font-size: 1.1em;
