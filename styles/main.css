@@ -65,3 +65,11 @@ ul.carousel_list li img {
   font-size: 0.75em;
 }
 
+div.hours_day {
+  float: left;
+}
+
+div.hours_hours {
+  text-align: right;
+  clear: all;
+}
