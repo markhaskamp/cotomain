@@ -66,10 +66,12 @@ ul.carousel_list li img {
 }
 
 div.hours_day {
+  padding-left: 0.5em;
   float: left;
 }
 
 div.hours_hours {
+  padding-right: 0.5em;
   text-align: right;
   clear: all;
 }
