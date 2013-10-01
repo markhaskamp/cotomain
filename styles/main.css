@@ -1,4 +1,3 @@
-
 /*
 div {
 	border: 1px solid black;
@@ -46,9 +45,14 @@ ul.carousel_list li img {
   font-size: 1.6em;
 }
 
+.foo {
+  background-image: url('../img/CoT_Final_slant.png');
+  background-repeat: no-repeat;
+  height: 500px;
+}
 .page_text_container {
   margin: 1.0em;
-  margin-top: 2.0em;
+  margin-top: 6.0em;
   line-height: 2.50em;
 }
 
