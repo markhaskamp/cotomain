@@ -122,6 +122,10 @@ ul.carousel_list li img {
   font-size: 0.75em;
 }
 
+div.table_stripe {
+  background-color: #f7d4d8;
+}
+
 div.hours_day {
   padding-left: 0.5em;
   float: left;
