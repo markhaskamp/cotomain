@@ -30,13 +30,39 @@ div {
   font-size: 1.33em;
 }
 
-#title_img {
-  position: relative;
-  top: -50px;
+@media (max-width: 767px) {
+  #title_img {
+		position: relative;
+		top: -50px;
+	}
 }
 
-.carousels_container {
-  margin-top: 1.5em;
+@media (min-width: 768px) and (max-width: 979px) {
+  #title_img {
+		position: relative;
+		top: -30px;
+	}
+}
+
+@media (min-width: 980px) {
+  #title_img {
+		position: relative;
+		top: -50px;
+	}
+}
+
+
+
+@media(min-width: 1200px) {
+	.carousels_container {
+  	margin-top: 2.75em;
+	}
+}
+
+@media(max-width: 1199px) {
+	.carousels_container {
+  	margin-top: 1.5em;
+	}
 }
 
 .carousel_pix {
@@ -55,11 +81,14 @@ ul.carousel_list li img {
   font-size: 1.6em;
 }
 
+@media(min-width: 768px) {
 .foo {
   background-image: url('../img/CoT_Final_background.png');
   background-repeat: no-repeat;
   height: 500px;
 }
+}
+
 .page_text_container {
   margin: 1.0em;
   margin-top: 6.0em;
