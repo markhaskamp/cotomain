@@ -7,7 +7,8 @@ div {
 .page-title{
   font-family: "arial black";
   margin-top: 2.65em;
-  background-color: #8c0303;
+  /* background-color: #8c0303; */
+  background-color: #be1e2d;
   color: white;
   height: 4.50em;
   padding: 1.5em;
@@ -46,7 +47,7 @@ ul.carousel_list li img {
 }
 
 .foo {
-  background-image: url('../img/CoT_Final_slant.png');
+  background-image: url('../img/CoT_Final_background.png');
   background-repeat: no-repeat;
   height: 500px;
 }
@@ -58,12 +59,12 @@ ul.carousel_list li img {
 
 .page_text .emphasis {
   text-align: left;
-  color:  #8c0303;
+  color: #be1e2d;
   font-size: 1.1em;
 }
 .panel_header {
   color: white;
-  background-color: #8c0303;
+  background-color: #be1e2d;
   padding: 3px;
   border: 1px solid black;
   border-bottom: 0px;
