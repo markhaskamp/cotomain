@@ -1,4 +1,8 @@
 /*
+ * gray outline: #f1f2f2;
+ * cherry red: #be1e2d;
+ * */
+/*
 div {
 	border: 1px solid black;
 }
@@ -8,7 +12,7 @@ div {
   font-family: "arial black";
   margin-top: 2.65em;
   /* background-color: #8c0303; */
-  background-color: #be1e2d;
+  background-color: #34282c;
   color: white;
   height: 4.50em;
   padding: 1.5em;
@@ -27,11 +31,16 @@ div {
 }
 
 #title_img {
-  position: absolute;
+  position: relative;
+  top: -50px;
 }
 
 .carousels_container {
   margin-top: 1.5em;
+}
+
+.carousel_pix {
+  margin-top: 3.0em;
 }
 
 ul.carousel_list li img {
