@@ -10,48 +10,43 @@ div {
 
 .page-title{
   font-family: "arial black";
-  margin-top: 2.65em;
-  /* background-color: #8c0303; */
+  margin-top: 0.75em;
   background-color: #34282c;
   color: white;
-  height: 4.50em;
-  padding: 1.5em;
+  height: 5.50em;
 }
 
-.page-title .page-title-text {
-  font-weight: bold;
-  font-size: 2.5em;
-  margin-left: 3.0em;
+div.page-title img {
+  height: 4.75em;
+	padding-top: 0.33em;
 }
 
-.page-title .on-main{
-  color: #cc6060;
-  font-weight: bold;
-  font-size: 1.33em;
-}
+/* large desktop */
+/*
+@media (min-width: 1200px) {
+*/
 
-@media (max-width: 767px) {
-  #title_img {
-		position: relative;
-		top: -50px;
-	}
-}
 
-@media (min-width: 768px) and (max-width: 979px) {
-  #title_img {
-		position: relative;
-		top: -30px;
-	}
-}
-
+/* smaller desktop */
 @media (min-width: 980px) {
-  #title_img {
-		position: relative;
-		top: -50px;
-	}
+  div.page-title img {
+		padding-left: 4.0em;
+  }
 }
 
+/* tablet landscape */
+@media (min-width: 768px) and (max-width: 979px) {
+  div.page-title img {
+		padding-left: 2.0em;
+  }
+}
 
+/* tablet portrait, phone landscape */
+@media (max-width: 767px) {
+  div.page-title img {
+		padding-left: 2.0em;
+  }
+}
 
 @media(min-width: 1200px) {
 	.carousels_container {
