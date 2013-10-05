@@ -2,3 +2,4 @@
 *.swp
 coto.patch
 .DS_STORE
+*.patch
