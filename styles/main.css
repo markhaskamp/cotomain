@@ -131,3 +131,31 @@ div.hours_hours {
   text-align: right;
   clear: all;
 }
+.menu_header {
+  color: white;
+  background-color: #be1e2d;
+  padding: 3px;
+  border: 1px solid black;
+  border-bottom: 0px;
+  border-radius: 5px 5px 0px 0px;
+  text-align: right;
+}
+
+.menu_content {
+  padding: 3px;
+  border: 1px solid black;
+  border-top: 0px;
+  border-radius: 0px 0px 5px 5px;
+  margin-bottom: 1.25em;
+}
+
+div.menu_item {
+  padding-left: 0.5em;
+  float: left;
+}
+
+div.menu_price {
+  padding-right: 0.5em;
+  text-align: right;
+  clear: all;
+}
