@@ -1,6 +1,7 @@
 /*
  * gray outline: #f1f2f2;
  * cherry red: #be1e2d;
+ * title background, charcoal black: #34282c;
  * */
 /*
 div {
@@ -76,6 +77,18 @@ ul.carousel_list li img {
   font-size: 1.6em;
 }
 
+.menu_text_container {
+  margin: 1.0em;
+  margin-top: 0.0em;
+}
+
+.menu_text {
+  font-family: "Arial Rounded MT Bold", Arial, Sans-Serif;
+  text-align: left;
+  color: #34282c;
+  font-size: 1.1em;
+}
+
 @media(min-width: 768px) {
 .foo {
   background-image: url('../img/CoT_Final_background.png');
@@ -117,10 +130,6 @@ ul.carousel_list li img {
   font-size: 0.75em;
 }
 
-div.table_stripe {
-  background-color: #f7d4d8;
-}
-
 div.hours_day {
   padding-left: 0.5em;
   float: left;
@@ -138,7 +147,6 @@ div.hours_hours {
   border: 1px solid black;
   border-bottom: 0px;
   border-radius: 5px 5px 0px 0px;
-  text-align: right;
 }
 
 .menu_content {
