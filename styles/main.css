@@ -23,32 +23,6 @@ div.page-title img {
 }
 
 /* large desktop */
-/*
-@media (min-width: 1200px) {
-*/
-
-
-/* smaller desktop */
-@media (min-width: 980px) {
-  div.page-title img {
-		padding-left: 4.0em;
-  }
-}
-
-/* tablet landscape */
-@media (min-width: 768px) and (max-width: 979px) {
-  div.page-title img {
-  padding-left: 2.0em;
-  }
-}
-
-/* tablet portrait, phone landscape */
-@media (max-width: 767px) {
-  div.page-title img {
-  padding-left: 2.0em;
-  }
-}
-
 @media(min-width: 1200px) {
   .carousels_container {
   margin-top: 2.75em;
@@ -60,6 +34,36 @@ div.page-title img {
   margin-top: 1.5em;
 }
 }
+
+/* smaller desktop */
+@media (min-width: 980px) {
+  div.page-title img {
+    padding-left: 4.0em;
+  }
+}
+
+
+/* tablet landscape */
+@media (min-width: 768px) and (max-width: 979px) {
+  div.page-title img {
+    padding-left: 2.0em;
+  }
+}
+
+/* tablet portrait, phone landscape */
+@media (max-width: 767px) {
+  div.page-title img {
+    padding-left: 2.0em;
+  }
+  .page_text_container {
+    margin-top: 0.0em;
+  }
+  .page_text_container {
+    margin-top: 2.0em;
+  }
+}
+
+
 
 .carousel_pix {
   margin-top: 3.0em;
@@ -109,7 +113,7 @@ div img.phone_main {
 
 .page_text_container {
   margin: 1.0em;
-  margin-top: 6.0em;
+  /* margin-top: 6.0em; */
   line-height: 2.50em;
 }
 
