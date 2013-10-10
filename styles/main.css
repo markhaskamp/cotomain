@@ -70,6 +70,12 @@ ul.carousel_list li img {
   height: 350px;
 }
 
+div img.phone_main {
+  height: 75px;
+  float: left;
+  margin: 0.33em;
+}
+
 .page_text {
   font-family: "Arial Rounded MT Bold", Arial, Sans-Serif;
   text-align: left;
